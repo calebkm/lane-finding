@@ -1,4 +1,4 @@
-/.ipynb_checkpoints/*
-/camera_cal/*
-/env/*
-/examples/*
+.ipynb_checkpoints/*
+camera_cal/*
+env/*
+examples/*
