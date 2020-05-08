@@ -1,0 +1,37 @@
+{
+  "build": "py37h6fd60c2_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.10.2,<1.10.3.0a0",
+    "py-opencv 3.4.2 py37h7c891bd_1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/Users/calebkm/opt/miniconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1",
+  "features": "",
+  "files": [],
+  "fn": "opencv-3.4.2-py37h6fd60c2_1.conda",
+  "legacy_bz2_md5": "db67dd323cfd649759d110de6a0f4607",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/calebkm/opt/miniconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1",
+    "type": 1
+  },
+  "md5": "3643b3a5baa605bf2500e8182103d51f",
+  "name": "opencv",
+  "package_tarball_full_path": "/Users/calebkm/opt/miniconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "opencv",
+  "sha256": "479eea4e53759847a3202592fb41f9c234110b557d5e3659262af37f34f524ec",
+  "size": 10799,
+  "subdir": "osx-64",
+  "timestamp": 1535562401991,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/opencv-3.4.2-py37h6fd60c2_1.conda",
+  "version": "3.4.2"
+}

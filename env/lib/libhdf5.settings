@@ -1,0 +1,85 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.10.2
+                  Configured on: Wed May  9 19:11:04 CDT 2018
+                  Configured by: root@bm-osx1010-01.corp.continuum.io
+                    Host system: x86_64-apple-darwin13.4.0
+              Uname information: Darwin bm-osx1010-01.corp.continuum.io 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64
+                       Byte sex: little-endian
+             Installation point: /Users/calebkm/Projects/lane-finding/env
+
+Compiling Options:
+------------------
+                     Build Mode: production
+              Debugging Symbols: no
+                        Asserts: no
+                      Profiling: no
+             Optimization Level: high
+
+Linking Options:
+----------------
+                      Libraries: static, shared
+  Statically Linked Executables: 
+                        LDFLAGS: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/calebkm/Projects/lane-finding/env/lib -L/Users/calebkm/Projects/lane-finding/env/lib
+                     H5_LDFLAGS:  -Wl,-commons,use_dylibs
+                     AM_LDFLAGS:  -L/Users/calebkm/Projects/lane-finding/env/lib
+                Extra libraries: -lpthread -lz -ldl -lm 
+                       Archiver: /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/hdf5_1525910897216/_build_env/bin/x86_64-apple-darwin13.4.0-ar
+                       AR_FLAGS: cr
+                         Ranlib: /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/hdf5_1525910897216/_build_env/bin/x86_64-apple-darwin13.4.0-ranlib
+
+Languages:
+----------
+                              C: yes
+                     C Compiler: /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/hdf5_1525910897216/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS:  -I/Users/calebkm/Projects/lane-finding/env/include
+                        C Flags: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -I/Users/calebkm/Projects/lane-finding/env/include -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix
+                     H5 C Flags:     
+                     AM C Flags: 
+               Shared C Library: yes
+               Static C Library: yes
+
+
+                        Fortran: yes
+               Fortran Compiler: /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/hdf5_1525910897216/_build_env/bin/x86_64-apple-darwin13.4.0-gfortran ( GNU Fortran (GCC) 4.8.5)
+                  Fortran Flags: 
+               H5 Fortran Flags:  -pedantic -Wall -Wextra -Wunderflow -Wimplicit-interface -Wsurprising -Wno-c-binding-type  -s -O2
+               AM Fortran Flags: 
+         Shared Fortran Library: no
+         Static Fortran Library: yes
+
+                            C++: yes
+                   C++ Compiler: /opt/concourse/worker/volumes/live/4fe5512b-e1f6-4404-7c6d-01d1dcb68029/volume/hdf5_1525910897216/_build_env/bin/x86_64-apple-darwin13.4.0-clang++
+                      C++ Flags: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -I/Users/calebkm/Projects/lane-finding/env/include -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix
+                   H5 C++ Flags:    
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: yes
+
+                           Java: no
+
+
+Features:
+---------
+                  Parallel HDF5: no
+             High-level library: yes
+                   Threadsafety: yes
+            Default API mapping: v110
+ With deprecated public symbols: yes
+         I/O filters (external): deflate(zlib)
+                            MPE: no
+                     Direct VFD: no
+                        dmalloc: no
+ Packages w/ extra debug output: none
+                    API tracing: no
+           Using memory checker: yes
+Memory allocation sanity checks: no
+            Metadata trace file: no
+         Function stack tracing: no
+      Strict file format checks: no
+   Optimization instrumentation: no

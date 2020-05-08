@@ -1,0 +1,13 @@
+prefix=/Users/calebkm/Projects/lane-finding/env
+exec_prefix=/Users/calebkm/Projects/lane-finding/env
+libdir=/Users/calebkm/Projects/lane-finding/env/lib
+includedir=/Users/calebkm/Projects/lane-finding/env/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 1.8.8
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

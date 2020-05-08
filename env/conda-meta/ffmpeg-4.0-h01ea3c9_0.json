@@ -1,0 +1,1662 @@
+{
+  "build": "h01ea3c9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.6,<2.0a0",
+    "freetype >=2.9.1,<3.0a0",
+    "libcxx >=4.0.1",
+    "libiconv >=1.15,<2.0a0",
+    "libopus >=1.2.1,<2.0a0",
+    "libvpx >=1.7.0,<1.8.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/calebkm/opt/miniconda3/pkgs/ffmpeg-4.0-h01ea3c9_0",
+  "features": "",
+  "files": [
+    "bin/ffmpeg",
+    "bin/ffprobe",
+    "include/libavcodec/ac3_parser.h",
+    "include/libavcodec/adts_parser.h",
+    "include/libavcodec/avcodec.h",
+    "include/libavcodec/avdct.h",
+    "include/libavcodec/avfft.h",
+    "include/libavcodec/d3d11va.h",
+    "include/libavcodec/dirac.h",
+    "include/libavcodec/dv_profile.h",
+    "include/libavcodec/dxva2.h",
+    "include/libavcodec/jni.h",
+    "include/libavcodec/mediacodec.h",
+    "include/libavcodec/qsv.h",
+    "include/libavcodec/vaapi.h",
+    "include/libavcodec/vdpau.h",
+    "include/libavcodec/version.h",
+    "include/libavcodec/videotoolbox.h",
+    "include/libavcodec/vorbis_parser.h",
+    "include/libavcodec/xvmc.h",
+    "include/libavdevice/avdevice.h",
+    "include/libavdevice/version.h",
+    "include/libavfilter/avfilter.h",
+    "include/libavfilter/buffersink.h",
+    "include/libavfilter/buffersrc.h",
+    "include/libavfilter/version.h",
+    "include/libavformat/avformat.h",
+    "include/libavformat/avio.h",
+    "include/libavformat/version.h",
+    "include/libavresample/avresample.h",
+    "include/libavresample/version.h",
+    "include/libavutil/adler32.h",
+    "include/libavutil/aes.h",
+    "include/libavutil/aes_ctr.h",
+    "include/libavutil/attributes.h",
+    "include/libavutil/audio_fifo.h",
+    "include/libavutil/avassert.h",
+    "include/libavutil/avconfig.h",
+    "include/libavutil/avstring.h",
+    "include/libavutil/avutil.h",
+    "include/libavutil/base64.h",
+    "include/libavutil/blowfish.h",
+    "include/libavutil/bprint.h",
+    "include/libavutil/bswap.h",
+    "include/libavutil/buffer.h",
+    "include/libavutil/camellia.h",
+    "include/libavutil/cast5.h",
+    "include/libavutil/channel_layout.h",
+    "include/libavutil/common.h",
+    "include/libavutil/cpu.h",
+    "include/libavutil/crc.h",
+    "include/libavutil/des.h",
+    "include/libavutil/dict.h",
+    "include/libavutil/display.h",
+    "include/libavutil/downmix_info.h",
+    "include/libavutil/encryption_info.h",
+    "include/libavutil/error.h",
+    "include/libavutil/eval.h",
+    "include/libavutil/ffversion.h",
+    "include/libavutil/fifo.h",
+    "include/libavutil/file.h",
+    "include/libavutil/frame.h",
+    "include/libavutil/hash.h",
+    "include/libavutil/hmac.h",
+    "include/libavutil/hwcontext.h",
+    "include/libavutil/hwcontext_cuda.h",
+    "include/libavutil/hwcontext_d3d11va.h",
+    "include/libavutil/hwcontext_drm.h",
+    "include/libavutil/hwcontext_dxva2.h",
+    "include/libavutil/hwcontext_mediacodec.h",
+    "include/libavutil/hwcontext_qsv.h",
+    "include/libavutil/hwcontext_vaapi.h",
+    "include/libavutil/hwcontext_vdpau.h",
+    "include/libavutil/hwcontext_videotoolbox.h",
+    "include/libavutil/imgutils.h",
+    "include/libavutil/intfloat.h",
+    "include/libavutil/intreadwrite.h",
+    "include/libavutil/lfg.h",
+    "include/libavutil/log.h",
+    "include/libavutil/lzo.h",
+    "include/libavutil/macros.h",
+    "include/libavutil/mastering_display_metadata.h",
+    "include/libavutil/mathematics.h",
+    "include/libavutil/md5.h",
+    "include/libavutil/mem.h",
+    "include/libavutil/motion_vector.h",
+    "include/libavutil/murmur3.h",
+    "include/libavutil/opt.h",
+    "include/libavutil/parseutils.h",
+    "include/libavutil/pixdesc.h",
+    "include/libavutil/pixelutils.h",
+    "include/libavutil/pixfmt.h",
+    "include/libavutil/random_seed.h",
+    "include/libavutil/rational.h",
+    "include/libavutil/rc4.h",
+    "include/libavutil/replaygain.h",
+    "include/libavutil/ripemd.h",
+    "include/libavutil/samplefmt.h",
+    "include/libavutil/sha.h",
+    "include/libavutil/sha512.h",
+    "include/libavutil/spherical.h",
+    "include/libavutil/stereo3d.h",
+    "include/libavutil/tea.h",
+    "include/libavutil/threadmessage.h",
+    "include/libavutil/time.h",
+    "include/libavutil/timecode.h",
+    "include/libavutil/timestamp.h",
+    "include/libavutil/tree.h",
+    "include/libavutil/twofish.h",
+    "include/libavutil/version.h",
+    "include/libavutil/xtea.h",
+    "include/libpostproc/postprocess.h",
+    "include/libpostproc/version.h",
+    "include/libswresample/swresample.h",
+    "include/libswresample/version.h",
+    "include/libswscale/swscale.h",
+    "include/libswscale/version.h",
+    "lib/libavcodec.58.18.100.dylib",
+    "lib/libavcodec.58.dylib",
+    "lib/libavcodec.a",
+    "lib/libavcodec.dylib",
+    "lib/libavdevice.58.3.100.dylib",
+    "lib/libavdevice.58.dylib",
+    "lib/libavdevice.a",
+    "lib/libavdevice.dylib",
+    "lib/libavfilter.7.16.100.dylib",
+    "lib/libavfilter.7.dylib",
+    "lib/libavfilter.a",
+    "lib/libavfilter.dylib",
+    "lib/libavformat.58.12.100.dylib",
+    "lib/libavformat.58.dylib",
+    "lib/libavformat.a",
+    "lib/libavformat.dylib",
+    "lib/libavresample.4.0.0.dylib",
+    "lib/libavresample.4.dylib",
+    "lib/libavresample.a",
+    "lib/libavresample.dylib",
+    "lib/libavutil.56.14.100.dylib",
+    "lib/libavutil.56.dylib",
+    "lib/libavutil.a",
+    "lib/libavutil.dylib",
+    "lib/libpostproc.55.1.100.dylib",
+    "lib/libpostproc.55.dylib",
+    "lib/libpostproc.a",
+    "lib/libpostproc.dylib",
+    "lib/libswresample.3.1.100.dylib",
+    "lib/libswresample.3.dylib",
+    "lib/libswresample.a",
+    "lib/libswresample.dylib",
+    "lib/libswscale.5.1.100.dylib",
+    "lib/libswscale.5.dylib",
+    "lib/libswscale.a",
+    "lib/libswscale.dylib",
+    "lib/pkgconfig/libavcodec.pc",
+    "lib/pkgconfig/libavdevice.pc",
+    "lib/pkgconfig/libavfilter.pc",
+    "lib/pkgconfig/libavformat.pc",
+    "lib/pkgconfig/libavresample.pc",
+    "lib/pkgconfig/libavutil.pc",
+    "lib/pkgconfig/libpostproc.pc",
+    "lib/pkgconfig/libswresample.pc",
+    "lib/pkgconfig/libswscale.pc",
+    "share/ffmpeg/examples/Makefile",
+    "share/ffmpeg/examples/README",
+    "share/ffmpeg/examples/avio_dir_cmd.c",
+    "share/ffmpeg/examples/avio_reading.c",
+    "share/ffmpeg/examples/decode_audio.c",
+    "share/ffmpeg/examples/decode_video.c",
+    "share/ffmpeg/examples/demuxing_decoding.c",
+    "share/ffmpeg/examples/encode_audio.c",
+    "share/ffmpeg/examples/encode_video.c",
+    "share/ffmpeg/examples/extract_mvs.c",
+    "share/ffmpeg/examples/filter_audio.c",
+    "share/ffmpeg/examples/filtering_audio.c",
+    "share/ffmpeg/examples/filtering_video.c",
+    "share/ffmpeg/examples/http_multiclient.c",
+    "share/ffmpeg/examples/hw_decode.c",
+    "share/ffmpeg/examples/metadata.c",
+    "share/ffmpeg/examples/muxing.c",
+    "share/ffmpeg/examples/qsvdec.c",
+    "share/ffmpeg/examples/remuxing.c",
+    "share/ffmpeg/examples/resampling_audio.c",
+    "share/ffmpeg/examples/scaling_video.c",
+    "share/ffmpeg/examples/transcode_aac.c",
+    "share/ffmpeg/examples/transcoding.c",
+    "share/ffmpeg/examples/vaapi_encode.c",
+    "share/ffmpeg/examples/vaapi_transcode.c",
+    "share/ffmpeg/ffprobe.xsd",
+    "share/ffmpeg/libvpx-1080p.ffpreset",
+    "share/ffmpeg/libvpx-1080p50_60.ffpreset",
+    "share/ffmpeg/libvpx-360p.ffpreset",
+    "share/ffmpeg/libvpx-720p.ffpreset",
+    "share/ffmpeg/libvpx-720p50_60.ffpreset"
+  ],
+  "fn": "ffmpeg-4.0-h01ea3c9_0.conda",
+  "legacy_bz2_md5": "3a16a999a6d9f70fdce92b8ddcbafdce",
+  "license": "GPL 3",
+  "link": {
+    "source": "/Users/calebkm/opt/miniconda3/pkgs/ffmpeg-4.0-h01ea3c9_0",
+    "type": 1
+  },
+  "md5": "8b540cfdcbdbf3717c1e6f60322634a3",
+  "name": "ffmpeg",
+  "package_tarball_full_path": "/Users/calebkm/opt/miniconda3/pkgs/ffmpeg-4.0-h01ea3c9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ffmpeg",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "abeeed5c661f71c7d20fcc794754c312572692fd867898ff91486249cd91af0c",
+        "sha256_in_prefix": "9295320761b4c853f1a2abcc8da51b5b0478852ed69dbc05f83b92abfdbe7e93",
+        "size_in_bytes": 248052
+      },
+      {
+        "_path": "bin/ffprobe",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "82ad91c4210c1465c0bde1794671f0f46bd971c8a29ed73394379e40442d34f6",
+        "sha256_in_prefix": "10df237a29a79cf098779bf519b8504e85718c6c7a6a8a2c2a089f1f0b22094a",
+        "size_in_bytes": 162424
+      },
+      {
+        "_path": "include/libavcodec/ac3_parser.h",
+        "path_type": "hardlink",
+        "sha256": "200c6d2e96975196e8ba5f5716223dc9dda999d51578dabce2fca93175a05252",
+        "sha256_in_prefix": "200c6d2e96975196e8ba5f5716223dc9dda999d51578dabce2fca93175a05252",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "include/libavcodec/adts_parser.h",
+        "path_type": "hardlink",
+        "sha256": "d466583a8dc1260b015e588adbe3abd45f3f8ca0e43722f3088b472e80492a15",
+        "sha256_in_prefix": "d466583a8dc1260b015e588adbe3abd45f3f8ca0e43722f3088b472e80492a15",
+        "size_in_bytes": 1354
+      },
+      {
+        "_path": "include/libavcodec/avcodec.h",
+        "path_type": "hardlink",
+        "sha256": "55d660bb6439bcd6ddbe73de5bcf61dc5525e64ecac94aeb43d65cb7e299f9ea",
+        "sha256_in_prefix": "55d660bb6439bcd6ddbe73de5bcf61dc5525e64ecac94aeb43d65cb7e299f9ea",
+        "size_in_bytes": 211684
+      },
+      {
+        "_path": "include/libavcodec/avdct.h",
+        "path_type": "hardlink",
+        "sha256": "ee04219cc725dd8ae4440080fbddd8becf5d095b22cd98ad8476a0715e3f555e",
+        "sha256_in_prefix": "ee04219cc725dd8ae4440080fbddd8becf5d095b22cd98ad8476a0715e3f555e",
+        "size_in_bytes": 2570
+      },
+      {
+        "_path": "include/libavcodec/avfft.h",
+        "path_type": "hardlink",
+        "sha256": "a0918d3d682f40bd65bbdc60ad0cdca08675a0067cd3e92581342b045fb0cc78",
+        "sha256_in_prefix": "a0918d3d682f40bd65bbdc60ad0cdca08675a0067cd3e92581342b045fb0cc78",
+        "size_in_bytes": 3111
+      },
+      {
+        "_path": "include/libavcodec/d3d11va.h",
+        "path_type": "hardlink",
+        "sha256": "74a55a2e3f19ce797e99624a224302f25efa89a115b9bf2e932c8fa179b0cc66",
+        "sha256_in_prefix": "74a55a2e3f19ce797e99624a224302f25efa89a115b9bf2e932c8fa179b0cc66",
+        "size_in_bytes": 2853
+      },
+      {
+        "_path": "include/libavcodec/dirac.h",
+        "path_type": "hardlink",
+        "sha256": "b248987f650dd7a110c942ad67351dc920e115248c54532b29381c4c64be9905",
+        "sha256_in_prefix": "b248987f650dd7a110c942ad67351dc920e115248c54532b29381c4c64be9905",
+        "size_in_bytes": 4044
+      },
+      {
+        "_path": "include/libavcodec/dv_profile.h",
+        "path_type": "hardlink",
+        "sha256": "efedccc613db41c8d5a68bf9c1b81ab8b0e13137ac85f5f7e75f0a08381fea75",
+        "sha256_in_prefix": "efedccc613db41c8d5a68bf9c1b81ab8b0e13137ac85f5f7e75f0a08381fea75",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "include/libavcodec/dxva2.h",
+        "path_type": "hardlink",
+        "sha256": "e69dc45a7d5a9206b3bfead10caf3117117005cd532c4fc599d9976637c1b9e3",
+        "sha256_in_prefix": "e69dc45a7d5a9206b3bfead10caf3117117005cd532c4fc599d9976637c1b9e3",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "include/libavcodec/jni.h",
+        "path_type": "hardlink",
+        "sha256": "18ca8eae5bce081b4eef1b1f61a62aefed1d4e6e3cde41487c81fb96ee709e51",
+        "sha256_in_prefix": "18ca8eae5bce081b4eef1b1f61a62aefed1d4e6e3cde41487c81fb96ee709e51",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "include/libavcodec/mediacodec.h",
+        "path_type": "hardlink",
+        "sha256": "df552a2314760d43025c9307883dbe7676d54c975637c93fda11ccd4c2f545c3",
+        "sha256_in_prefix": "df552a2314760d43025c9307883dbe7676d54c975637c93fda11ccd4c2f545c3",
+        "size_in_bytes": 2825
+      },
+      {
+        "_path": "include/libavcodec/qsv.h",
+        "path_type": "hardlink",
+        "sha256": "0a21a0e4770ce91802c3dea5623c2a4858e1480e664df51e2b1af0db829bff2f",
+        "sha256_in_prefix": "0a21a0e4770ce91802c3dea5623c2a4858e1480e664df51e2b1af0db829bff2f",
+        "size_in_bytes": 3763
+      },
+      {
+        "_path": "include/libavcodec/vaapi.h",
+        "path_type": "hardlink",
+        "sha256": "17dc7116c4a79f1925457917e5b47ccf2ce546c47357241f77155fe25caebacf",
+        "sha256_in_prefix": "17dc7116c4a79f1925457917e5b47ccf2ce546c47357241f77155fe25caebacf",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "include/libavcodec/vdpau.h",
+        "path_type": "hardlink",
+        "sha256": "406d626f19911d6c4bef4afc77c469e49369b05ea0f87dbcf49fb3034400494e",
+        "sha256_in_prefix": "406d626f19911d6c4bef4afc77c469e49369b05ea0f87dbcf49fb3034400494e",
+        "size_in_bytes": 5796
+      },
+      {
+        "_path": "include/libavcodec/version.h",
+        "path_type": "hardlink",
+        "sha256": "8ff8a9d9ed962285fd49a5b4fbfac7144378fd07a85519b6cfa066c8129b1115",
+        "sha256_in_prefix": "8ff8a9d9ed962285fd49a5b4fbfac7144378fd07a85519b6cfa066c8129b1115",
+        "size_in_bytes": 4785
+      },
+      {
+        "_path": "include/libavcodec/videotoolbox.h",
+        "path_type": "hardlink",
+        "sha256": "3545b1add1d97a99f3646f3e07baa76b59ec0b6abb6a7db1b190472161ca25e6",
+        "sha256_in_prefix": "3545b1add1d97a99f3646f3e07baa76b59ec0b6abb6a7db1b190472161ca25e6",
+        "size_in_bytes": 4029
+      },
+      {
+        "_path": "include/libavcodec/vorbis_parser.h",
+        "path_type": "hardlink",
+        "sha256": "57077b2e1d28d42636cab0f69e4b92b1ad64ac2eaa2843c270a6afaf308a76ae",
+        "sha256_in_prefix": "57077b2e1d28d42636cab0f69e4b92b1ad64ac2eaa2843c270a6afaf308a76ae",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "include/libavcodec/xvmc.h",
+        "path_type": "hardlink",
+        "sha256": "51987ad98b125aedc395360fa29b8f4f7029e8d98abe9999def9f5216f8bc2a9",
+        "sha256_in_prefix": "51987ad98b125aedc395360fa29b8f4f7029e8d98abe9999def9f5216f8bc2a9",
+        "size_in_bytes": 6062
+      },
+      {
+        "_path": "include/libavdevice/avdevice.h",
+        "path_type": "hardlink",
+        "sha256": "da68bd84322575ba8cf2800a0c26e031e74ede44c07922fa3cb7ec745a33079c",
+        "sha256_in_prefix": "da68bd84322575ba8cf2800a0c26e031e74ede44c07922fa3cb7ec745a33079c",
+        "size_in_bytes": 17918
+      },
+      {
+        "_path": "include/libavdevice/version.h",
+        "path_type": "hardlink",
+        "sha256": "f733a33d92aa1028a33cd4ee0c9e723637cff6b27eb56962d183d93877a82955",
+        "sha256_in_prefix": "f733a33d92aa1028a33cd4ee0c9e723637cff6b27eb56962d183d93877a82955",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "include/libavfilter/avfilter.h",
+        "path_type": "hardlink",
+        "sha256": "9d4b4f84edbe814312c2e8a7a647bbf33d159814fbf0ca100cca280e2375682f",
+        "sha256_in_prefix": "9d4b4f84edbe814312c2e8a7a647bbf33d159814fbf0ca100cca280e2375682f",
+        "size_in_bytes": 42263
+      },
+      {
+        "_path": "include/libavfilter/buffersink.h",
+        "path_type": "hardlink",
+        "sha256": "c130bb6ef43017f6675aeaba52a4a54f46012708dae901b7d7e8ba8dd31f76bc",
+        "sha256_in_prefix": "c130bb6ef43017f6675aeaba52a4a54f46012708dae901b7d7e8ba8dd31f76bc",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "include/libavfilter/buffersrc.h",
+        "path_type": "hardlink",
+        "sha256": "533161432a3414ee359e8740fec73c9730be92d9302cabc6266260c0cedc1c20",
+        "sha256_in_prefix": "533161432a3414ee359e8740fec73c9730be92d9302cabc6266260c0cedc1c20",
+        "size_in_bytes": 6608
+      },
+      {
+        "_path": "include/libavfilter/version.h",
+        "path_type": "hardlink",
+        "sha256": "d76f60c6e02ed6dbb20745bc4b2c63a3a870b61f383c5dce46aa44e89982fe8b",
+        "sha256_in_prefix": "d76f60c6e02ed6dbb20745bc4b2c63a3a870b61f383c5dce46aa44e89982fe8b",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "include/libavformat/avformat.h",
+        "path_type": "hardlink",
+        "sha256": "e2f77f4f864d9247267df12c7ccfe92910899939281486a086fcc47e9b89e04b",
+        "sha256_in_prefix": "e2f77f4f864d9247267df12c7ccfe92910899939281486a086fcc47e9b89e04b",
+        "size_in_bytes": 117558
+      },
+      {
+        "_path": "include/libavformat/avio.h",
+        "path_type": "hardlink",
+        "sha256": "60ec540459896c12e6512e573fa1a033533d9c7fd3af59dcd08ab76b5c79c6de",
+        "sha256_in_prefix": "60ec540459896c12e6512e573fa1a033533d9c7fd3af59dcd08ab76b5c79c6de",
+        "size_in_bytes": 31557
+      },
+      {
+        "_path": "include/libavformat/version.h",
+        "path_type": "hardlink",
+        "sha256": "03532f2fecfc9fa0169e589c540c909b913e765746c1c4c284c52fcd74c1ad5d",
+        "sha256_in_prefix": "03532f2fecfc9fa0169e589c540c909b913e765746c1c4c284c52fcd74c1ad5d",
+        "size_in_bytes": 3781
+      },
+      {
+        "_path": "include/libavresample/avresample.h",
+        "path_type": "hardlink",
+        "sha256": "8fe85e97e6dc3e503897842e72475ce82825bc0b657902146964cee4466d9525",
+        "sha256_in_prefix": "8fe85e97e6dc3e503897842e72475ce82825bc0b657902146964cee4466d9525",
+        "size_in_bytes": 21459
+      },
+      {
+        "_path": "include/libavresample/version.h",
+        "path_type": "hardlink",
+        "sha256": "41fd502de0fac6953025fc3028c5aa9b036b0e4f9d9a1c315b4f4bf923b6f35c",
+        "sha256_in_prefix": "41fd502de0fac6953025fc3028c5aa9b036b0e4f9d9a1c315b4f4bf923b6f35c",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "include/libavutil/adler32.h",
+        "path_type": "hardlink",
+        "sha256": "2e1fe97266ac1fe84693f2a837f57e48fcf0582d242f13d7034d4443e9eccfca",
+        "sha256_in_prefix": "2e1fe97266ac1fe84693f2a837f57e48fcf0582d242f13d7034d4443e9eccfca",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "include/libavutil/aes.h",
+        "path_type": "hardlink",
+        "sha256": "36644cefd472da0aa2f88871ded8949ec91eb4ec252fd7d25e5d94c4db229139",
+        "sha256_in_prefix": "36644cefd472da0aa2f88871ded8949ec91eb4ec252fd7d25e5d94c4db229139",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "include/libavutil/aes_ctr.h",
+        "path_type": "hardlink",
+        "sha256": "3687d7cc50d48d3c74c7bd4cdb4ea89b5d947fdb9d5e66e7eacef656a41cec3a",
+        "sha256_in_prefix": "3687d7cc50d48d3c74c7bd4cdb4ea89b5d947fdb9d5e66e7eacef656a41cec3a",
+        "size_in_bytes": 2269
+      },
+      {
+        "_path": "include/libavutil/attributes.h",
+        "path_type": "hardlink",
+        "sha256": "d695c5661adf0b5018bd9a7e59f7f1b839318beed656b0930f10cee7360a509a",
+        "sha256_in_prefix": "d695c5661adf0b5018bd9a7e59f7f1b839318beed656b0930f10cee7360a509a",
+        "size_in_bytes": 4714
+      },
+      {
+        "_path": "include/libavutil/audio_fifo.h",
+        "path_type": "hardlink",
+        "sha256": "a11be7a6e84da1f82e2c771faffe4d20ba79d11299ee32fe8667d005c305dd2e",
+        "sha256_in_prefix": "a11be7a6e84da1f82e2c771faffe4d20ba79d11299ee32fe8667d005c305dd2e",
+        "size_in_bytes": 5914
+      },
+      {
+        "_path": "include/libavutil/avassert.h",
+        "path_type": "hardlink",
+        "sha256": "4ed7ccf61ae919591dec69f94fa31d84d1aa53a9a9cea1a905e3a2d52899dc88",
+        "sha256_in_prefix": "4ed7ccf61ae919591dec69f94fa31d84d1aa53a9a9cea1a905e3a2d52899dc88",
+        "size_in_bytes": 2355
+      },
+      {
+        "_path": "include/libavutil/avconfig.h",
+        "path_type": "hardlink",
+        "sha256": "975611ad5eba15212d9e1d5fca9d4fdf0daec6d2269b2fcab8e29af8667164bc",
+        "sha256_in_prefix": "975611ad5eba15212d9e1d5fca9d4fdf0daec6d2269b2fcab8e29af8667164bc",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "include/libavutil/avstring.h",
+        "path_type": "hardlink",
+        "sha256": "c6a991137ebfe62dc1781b0015716deb18b4ba0467ff7e6d8d39a9fc29db5294",
+        "sha256_in_prefix": "c6a991137ebfe62dc1781b0015716deb18b4ba0467ff7e6d8d39a9fc29db5294",
+        "size_in_bytes": 14095
+      },
+      {
+        "_path": "include/libavutil/avutil.h",
+        "path_type": "hardlink",
+        "sha256": "5d868e4d3340fccd511662b67eb4e28febd23e4eb28466d57a7e277228d53baf",
+        "sha256_in_prefix": "5d868e4d3340fccd511662b67eb4e28febd23e4eb28466d57a7e277228d53baf",
+        "size_in_bytes": 9576
+      },
+      {
+        "_path": "include/libavutil/base64.h",
+        "path_type": "hardlink",
+        "sha256": "81ac13d23f3744fe85ea2651ce903e201cd55fc63fcdd899d2cfe5560d50ef3d",
+        "sha256_in_prefix": "81ac13d23f3744fe85ea2651ce903e201cd55fc63fcdd899d2cfe5560d50ef3d",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "include/libavutil/blowfish.h",
+        "path_type": "hardlink",
+        "sha256": "b955a63c60c8b3be0203ec6c3973f9084d848cf884fe56cd56088301aeef7992",
+        "sha256_in_prefix": "b955a63c60c8b3be0203ec6c3973f9084d848cf884fe56cd56088301aeef7992",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "include/libavutil/bprint.h",
+        "path_type": "hardlink",
+        "sha256": "c4040dabbc4310b612834e6884f73119850704431a320e9b157275fca99b7066",
+        "sha256_in_prefix": "c4040dabbc4310b612834e6884f73119850704431a320e9b157275fca99b7066",
+        "size_in_bytes": 7797
+      },
+      {
+        "_path": "include/libavutil/bswap.h",
+        "path_type": "hardlink",
+        "sha256": "7d6432122fcb3a261f037a4323738301a5a6b50ebe80940749a9c9704a56bc3c",
+        "sha256_in_prefix": "7d6432122fcb3a261f037a4323738301a5a6b50ebe80940749a9c9704a56bc3c",
+        "size_in_bytes": 2858
+      },
+      {
+        "_path": "include/libavutil/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "f3cae86c0fea1fa0e037fecebd9acd998bedcb19bead1eb7df6da64d4b2aa689",
+        "sha256_in_prefix": "f3cae86c0fea1fa0e037fecebd9acd998bedcb19bead1eb7df6da64d4b2aa689",
+        "size_in_bytes": 10646
+      },
+      {
+        "_path": "include/libavutil/camellia.h",
+        "path_type": "hardlink",
+        "sha256": "78e8569378757df3f33b5217b2b3bcace1abd970e56e97fa9855e22c86a13822",
+        "sha256_in_prefix": "78e8569378757df3f33b5217b2b3bcace1abd970e56e97fa9855e22c86a13822",
+        "size_in_bytes": 2139
+      },
+      {
+        "_path": "include/libavutil/cast5.h",
+        "path_type": "hardlink",
+        "sha256": "05b2e13aecaa0adbb470081a689f45baffb8e03a71997c31f37a22ea4e383a60",
+        "sha256_in_prefix": "05b2e13aecaa0adbb470081a689f45baffb8e03a71997c31f37a22ea4e383a60",
+        "size_in_bytes": 2561
+      },
+      {
+        "_path": "include/libavutil/channel_layout.h",
+        "path_type": "hardlink",
+        "sha256": "dbd46ceb8bf6a74f41fb3ea21b064c808e6f4572467c99310111915d1b34b570",
+        "sha256_in_prefix": "dbd46ceb8bf6a74f41fb3ea21b064c808e6f4572467c99310111915d1b34b570",
+        "size_in_bytes": 9613
+      },
+      {
+        "_path": "include/libavutil/common.h",
+        "path_type": "hardlink",
+        "sha256": "b5fc1c35f4ca3f4f52087d6c468ea922e87f09cfe1766e6605a81094a095a69a",
+        "sha256_in_prefix": "b5fc1c35f4ca3f4f52087d6c468ea922e87f09cfe1766e6605a81094a095a69a",
+        "size_in_bytes": 16541
+      },
+      {
+        "_path": "include/libavutil/cpu.h",
+        "path_type": "hardlink",
+        "sha256": "568994c2574ad6a8a9322eca98034c8a64cf3e3d0f1ed94b77d792060eea01db",
+        "sha256_in_prefix": "568994c2574ad6a8a9322eca98034c8a64cf3e3d0f1ed94b77d792060eea01db",
+        "size_in_bytes": 5682
+      },
+      {
+        "_path": "include/libavutil/crc.h",
+        "path_type": "hardlink",
+        "sha256": "8c9d577abb491f244c1f2c2d46b5bb25a216ea4b3826f2b3d727f956edf0a155",
+        "sha256_in_prefix": "8c9d577abb491f244c1f2c2d46b5bb25a216ea4b3826f2b3d727f956edf0a155",
+        "size_in_bytes": 3137
+      },
+      {
+        "_path": "include/libavutil/des.h",
+        "path_type": "hardlink",
+        "sha256": "aff467bd102466db2f73ba2fa9c652a02b7c80daa5d7906c8dfa2dee9448d469",
+        "sha256_in_prefix": "aff467bd102466db2f73ba2fa9c652a02b7c80daa5d7906c8dfa2dee9448d469",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "include/libavutil/dict.h",
+        "path_type": "hardlink",
+        "sha256": "b8f3d9d4f4e59c77fede23eef817e5821608151f86cd8dfffb4b81c877d973c8",
+        "sha256_in_prefix": "b8f3d9d4f4e59c77fede23eef817e5821608151f86cd8dfffb4b81c877d973c8",
+        "size_in_bytes": 8275
+      },
+      {
+        "_path": "include/libavutil/display.h",
+        "path_type": "hardlink",
+        "sha256": "c1f7f1151190de1e96fe998e245aae498e8f776f658ac3e566b24fc56de43866",
+        "sha256_in_prefix": "c1f7f1151190de1e96fe998e245aae498e8f776f658ac3e566b24fc56de43866",
+        "size_in_bytes": 3527
+      },
+      {
+        "_path": "include/libavutil/downmix_info.h",
+        "path_type": "hardlink",
+        "sha256": "2fc23ad8f0750d82fcd6aa3b653998e2ea9721f9d1664df7b6cb80e93d7fa3aa",
+        "sha256_in_prefix": "2fc23ad8f0750d82fcd6aa3b653998e2ea9721f9d1664df7b6cb80e93d7fa3aa",
+        "size_in_bytes": 3235
+      },
+      {
+        "_path": "include/libavutil/encryption_info.h",
+        "path_type": "hardlink",
+        "sha256": "a016624f9296df5e3d9e2e2e143aa31a1c583c6dac95779d3727d6aa06bf28f2",
+        "sha256_in_prefix": "a016624f9296df5e3d9e2e2e143aa31a1c583c6dac95779d3727d6aa06bf28f2",
+        "size_in_bytes": 6906
+      },
+      {
+        "_path": "include/libavutil/error.h",
+        "path_type": "hardlink",
+        "sha256": "cd530a990c8949e867f05e08e4de07c2df170d435707a73679fe5fe53bb3389e",
+        "sha256_in_prefix": "cd530a990c8949e867f05e08e4de07c2df170d435707a73679fe5fe53bb3389e",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "include/libavutil/eval.h",
+        "path_type": "hardlink",
+        "sha256": "8680c2f0b30e0603a5bab4357984df9b51d182ac17d900d65a719023e14617f7",
+        "sha256_in_prefix": "8680c2f0b30e0603a5bab4357984df9b51d182ac17d900d65a719023e14617f7",
+        "size_in_bytes": 5302
+      },
+      {
+        "_path": "include/libavutil/ffversion.h",
+        "path_type": "hardlink",
+        "sha256": "0fdbce6d401cc1fc266aba9d5849e55c5247fb1e671e183fa469ba4a518bd5f5",
+        "sha256_in_prefix": "0fdbce6d401cc1fc266aba9d5849e55c5247fb1e671e183fa469ba4a518bd5f5",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "include/libavutil/fifo.h",
+        "path_type": "hardlink",
+        "sha256": "d8837e2675b3e4380e60857e94150713e612ea34f3da1868515d7449f05f1fbc",
+        "sha256_in_prefix": "d8837e2675b3e4380e60857e94150713e612ea34f3da1868515d7449f05f1fbc",
+        "size_in_bytes": 5899
+      },
+      {
+        "_path": "include/libavutil/file.h",
+        "path_type": "hardlink",
+        "sha256": "5ad4f631f60e7e3f0b08f5f0d4d60b0f27cd1133091a7a1fc576ea758f355bde",
+        "sha256_in_prefix": "5ad4f631f60e7e3f0b08f5f0d4d60b0f27cd1133091a7a1fc576ea758f355bde",
+        "size_in_bytes": 2565
+      },
+      {
+        "_path": "include/libavutil/frame.h",
+        "path_type": "hardlink",
+        "sha256": "3129d5b3d8e5531739ac57010ca7f695693447e31757b1ece6790b2981b9ca3f",
+        "sha256_in_prefix": "3129d5b3d8e5531739ac57010ca7f695693447e31757b1ece6790b2981b9ca3f",
+        "size_in_bytes": 28932
+      },
+      {
+        "_path": "include/libavutil/hash.h",
+        "path_type": "hardlink",
+        "sha256": "22973e98797c24e281827b0671300a54676134873a096d1a0cc6dcbcf778d44d",
+        "sha256_in_prefix": "22973e98797c24e281827b0671300a54676134873a096d1a0cc6dcbcf778d44d",
+        "size_in_bytes": 8574
+      },
+      {
+        "_path": "include/libavutil/hmac.h",
+        "path_type": "hardlink",
+        "sha256": "47dcbfb72349596901070b2ed57facf1e02efd9fc91e8633f93a392ede671e2e",
+        "sha256_in_prefix": "47dcbfb72349596901070b2ed57facf1e02efd9fc91e8633f93a392ede671e2e",
+        "size_in_bytes": 2886
+      },
+      {
+        "_path": "include/libavutil/hwcontext.h",
+        "path_type": "hardlink",
+        "sha256": "a1c8aeddd7bfb3381f6fc417ce4e1d4419f36f876fcdf25233daf60573d54210",
+        "sha256_in_prefix": "a1c8aeddd7bfb3381f6fc417ce4e1d4419f36f876fcdf25233daf60573d54210",
+        "size_in_bytes": 23027
+      },
+      {
+        "_path": "include/libavutil/hwcontext_cuda.h",
+        "path_type": "hardlink",
+        "sha256": "ce09efe33ef2684b2112bd076e41749a6a2c890fdb150a15d33a48aada0d18ef",
+        "sha256_in_prefix": "ce09efe33ef2684b2112bd076e41749a6a2c890fdb150a15d33a48aada0d18ef",
+        "size_in_bytes": 1461
+      },
+      {
+        "_path": "include/libavutil/hwcontext_d3d11va.h",
+        "path_type": "hardlink",
+        "sha256": "71b43c95ec6ef2eabe6858d7cef5f7e734e551b045fe6b0d7e1717499e15bec2",
+        "sha256_in_prefix": "71b43c95ec6ef2eabe6858d7cef5f7e734e551b045fe6b0d7e1717499e15bec2",
+        "size_in_bytes": 6225
+      },
+      {
+        "_path": "include/libavutil/hwcontext_drm.h",
+        "path_type": "hardlink",
+        "sha256": "b598f37f40cf1342f923c0b97784a6f2830b543868eccee046375e096fbd5f24",
+        "sha256_in_prefix": "b598f37f40cf1342f923c0b97784a6f2830b543868eccee046375e096fbd5f24",
+        "size_in_bytes": 4673
+      },
+      {
+        "_path": "include/libavutil/hwcontext_dxva2.h",
+        "path_type": "hardlink",
+        "sha256": "73a0333b65e99675834dcb1b63a5e9339638ccc619f1a2fcba85cdd0e179ade0",
+        "sha256_in_prefix": "73a0333b65e99675834dcb1b63a5e9339638ccc619f1a2fcba85cdd0e179ade0",
+        "size_in_bytes": 2411
+      },
+      {
+        "_path": "include/libavutil/hwcontext_mediacodec.h",
+        "path_type": "hardlink",
+        "sha256": "782ffc4acb547481295419cec98e036290f555483ec374972db129299c9ecec3",
+        "sha256_in_prefix": "782ffc4acb547481295419cec98e036290f555483ec374972db129299c9ecec3",
+        "size_in_bytes": 1203
+      },
+      {
+        "_path": "include/libavutil/hwcontext_qsv.h",
+        "path_type": "hardlink",
+        "sha256": "28c54c9ddb4bd8e8c47b11b1f44dffde40eac604b2b6ec6f1448f7d298780878",
+        "sha256_in_prefix": "28c54c9ddb4bd8e8c47b11b1f44dffde40eac604b2b6ec6f1448f7d298780878",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "include/libavutil/hwcontext_vaapi.h",
+        "path_type": "hardlink",
+        "sha256": "6f6c6a5250dd0f901cdc7de8b9b3db26102719b7e056cd17500009096bfd9b39",
+        "sha256_in_prefix": "6f6c6a5250dd0f901cdc7de8b9b3db26102719b7e056cd17500009096bfd9b39",
+        "size_in_bytes": 3787
+      },
+      {
+        "_path": "include/libavutil/hwcontext_vdpau.h",
+        "path_type": "hardlink",
+        "sha256": "6c96373d9e5deb2c500004f3f55ee1d2cea0f76cdfaeabaf5a3ad3e4938e8252",
+        "sha256_in_prefix": "6c96373d9e5deb2c500004f3f55ee1d2cea0f76cdfaeabaf5a3ad3e4938e8252",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "include/libavutil/hwcontext_videotoolbox.h",
+        "path_type": "hardlink",
+        "sha256": "60f6c7cbfe5c74da0a89b164c0b2b0b91f39d2bfdf949714e9591cb9488617f4",
+        "sha256_in_prefix": "60f6c7cbfe5c74da0a89b164c0b2b0b91f39d2bfdf949714e9591cb9488617f4",
+        "size_in_bytes": 1883
+      },
+      {
+        "_path": "include/libavutil/imgutils.h",
+        "path_type": "hardlink",
+        "sha256": "0d2ddf88e72b4f6f2aa880399faf495e3789f64a3d1e81273d73fd146e5118aa",
+        "sha256_in_prefix": "0d2ddf88e72b4f6f2aa880399faf495e3789f64a3d1e81273d73fd146e5118aa",
+        "size_in_bytes": 11530
+      },
+      {
+        "_path": "include/libavutil/intfloat.h",
+        "path_type": "hardlink",
+        "sha256": "3a29e4eebc8c269cfd867b96de91d8231773d392c12a8820e46eaba96d2b4ca1",
+        "sha256_in_prefix": "3a29e4eebc8c269cfd867b96de91d8231773d392c12a8820e46eaba96d2b4ca1",
+        "size_in_bytes": 1726
+      },
+      {
+        "_path": "include/libavutil/intreadwrite.h",
+        "path_type": "hardlink",
+        "sha256": "d711e77a19d37f9d0c23c1f644b9426d379b3b414ca96dbb9a923569acabdacd",
+        "sha256_in_prefix": "d711e77a19d37f9d0c23c1f644b9426d379b3b414ca96dbb9a923569acabdacd",
+        "size_in_bytes": 18398
+      },
+      {
+        "_path": "include/libavutil/lfg.h",
+        "path_type": "hardlink",
+        "sha256": "77a1014915cf158835150bd71d5a78c78c673bec609be90f48519b0cd077255c",
+        "sha256_in_prefix": "77a1014915cf158835150bd71d5a78c78c673bec609be90f48519b0cd077255c",
+        "size_in_bytes": 2215
+      },
+      {
+        "_path": "include/libavutil/log.h",
+        "path_type": "hardlink",
+        "sha256": "238d18ca7c46c84b0977bc67283c9ba2b034f8f6f20c2110fcd1e0a5c1d97d08",
+        "sha256_in_prefix": "238d18ca7c46c84b0977bc67283c9ba2b034f8f6f20c2110fcd1e0a5c1d97d08",
+        "size_in_bytes": 11315
+      },
+      {
+        "_path": "include/libavutil/lzo.h",
+        "path_type": "hardlink",
+        "sha256": "61e89928dee9d83030adececac06aa6c1ae2aada06c5682fde52c52015c53556",
+        "sha256_in_prefix": "61e89928dee9d83030adececac06aa6c1ae2aada06c5682fde52c52015c53556",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "include/libavutil/macros.h",
+        "path_type": "hardlink",
+        "sha256": "7fd8514cbe4b6ef025b0f5cc3b752e2c3940e22f4945cf6e6372653b6e3d2bca",
+        "sha256_in_prefix": "7fd8514cbe4b6ef025b0f5cc3b752e2c3940e22f4945cf6e6372653b6e3d2bca",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "include/libavutil/mastering_display_metadata.h",
+        "path_type": "hardlink",
+        "sha256": "9d5743a42306ac0158e26248a1281ae8be9ebfeb02e67f14e0e6ae770a543a65",
+        "sha256_in_prefix": "9d5743a42306ac0158e26248a1281ae8be9ebfeb02e67f14e0e6ae770a543a65",
+        "size_in_bytes": 3944
+      },
+      {
+        "_path": "include/libavutil/mathematics.h",
+        "path_type": "hardlink",
+        "sha256": "a4cd34f7c19d82c4e58349f0c4987f5b3829dad15755f4eca166b492506cd37c",
+        "sha256_in_prefix": "a4cd34f7c19d82c4e58349f0c4987f5b3829dad15755f4eca166b492506cd37c",
+        "size_in_bytes": 7945
+      },
+      {
+        "_path": "include/libavutil/md5.h",
+        "path_type": "hardlink",
+        "sha256": "435edd1b3c07f8afb9f73c0a80b362a8cf439049ae3aba55b106edb055aac10d",
+        "sha256_in_prefix": "435edd1b3c07f8afb9f73c0a80b362a8cf439049ae3aba55b106edb055aac10d",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "include/libavutil/mem.h",
+        "path_type": "hardlink",
+        "sha256": "d113db71707d0c7750f642ce5f1d6500b46ccb22d63e179597a0125e2ad77a66",
+        "sha256_in_prefix": "d113db71707d0c7750f642ce5f1d6500b46ccb22d63e179597a0125e2ad77a66",
+        "size_in_bytes": 23597
+      },
+      {
+        "_path": "include/libavutil/motion_vector.h",
+        "path_type": "hardlink",
+        "sha256": "dc0b0a15a638c8b91df95a418c5951ee5e787d518f22b6e3d70094922536e8bb",
+        "sha256_in_prefix": "dc0b0a15a638c8b91df95a418c5951ee5e787d518f22b6e3d70094922536e8bb",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "include/libavutil/murmur3.h",
+        "path_type": "hardlink",
+        "sha256": "412eade9534f79127b104385f2941d0c0dc1c609b05624599742ecdaf16bbe64",
+        "sha256_in_prefix": "412eade9534f79127b104385f2941d0c0dc1c609b05624599742ecdaf16bbe64",
+        "size_in_bytes": 3621
+      },
+      {
+        "_path": "include/libavutil/opt.h",
+        "path_type": "hardlink",
+        "sha256": "ace5481fda4cfda90a61a1c8e4f27e59c1fa970c77ecb1824a0d8abc2edc0165",
+        "sha256_in_prefix": "ace5481fda4cfda90a61a1c8e4f27e59c1fa970c77ecb1824a0d8abc2edc0165",
+        "size_in_bytes": 35827
+      },
+      {
+        "_path": "include/libavutil/parseutils.h",
+        "path_type": "hardlink",
+        "sha256": "dafb4321ecbd52930d3900d8d22b2d1714b0375622aeea4acfdf8a0a4b6ee03b",
+        "sha256_in_prefix": "dafb4321ecbd52930d3900d8d22b2d1714b0375622aeea4acfdf8a0a4b6ee03b",
+        "size_in_bytes": 7575
+      },
+      {
+        "_path": "include/libavutil/pixdesc.h",
+        "path_type": "hardlink",
+        "sha256": "0fe26c851b4c92775a77dd7092c091ce31aa679c7646f064854cdd8a74a59977",
+        "sha256_in_prefix": "0fe26c851b4c92775a77dd7092c091ce31aa679c7646f064854cdd8a74a59977",
+        "size_in_bytes": 15830
+      },
+      {
+        "_path": "include/libavutil/pixelutils.h",
+        "path_type": "hardlink",
+        "sha256": "c011fc734af1dc54ee933456b15f84ecee65cfe1a24ee16f90b41e4ed98e55c1",
+        "sha256_in_prefix": "c011fc734af1dc54ee933456b15f84ecee65cfe1a24ee16f90b41e4ed98e55c1",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "include/libavutil/pixfmt.h",
+        "path_type": "hardlink",
+        "sha256": "077705aa6c617f215e4a4b0fb2f75b37a477457da80d6915484920747c935e70",
+        "sha256_in_prefix": "077705aa6c617f215e4a4b0fb2f75b37a477457da80d6915484920747c935e70",
+        "size_in_bytes": 32761
+      },
+      {
+        "_path": "include/libavutil/random_seed.h",
+        "path_type": "hardlink",
+        "sha256": "78b238cd2dacd863879052ca3b1405c314aab220f63b076602f10bf321974ac5",
+        "sha256_in_prefix": "78b238cd2dacd863879052ca3b1405c314aab220f63b076602f10bf321974ac5",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "include/libavutil/rational.h",
+        "path_type": "hardlink",
+        "sha256": "8c4ce57974b97c4160d7552c14b2c23fcc6f4c1321281c1e8e33beb6e2276276",
+        "sha256_in_prefix": "8c4ce57974b97c4160d7552c14b2c23fcc6f4c1321281c1e8e33beb6e2276276",
+        "size_in_bytes": 5844
+      },
+      {
+        "_path": "include/libavutil/rc4.h",
+        "path_type": "hardlink",
+        "sha256": "74610fdb46f20ba5dac1edd1da2f2d6d837ac4c5746aa9efb16c9c147f39ffe8",
+        "sha256_in_prefix": "74610fdb46f20ba5dac1edd1da2f2d6d837ac4c5746aa9efb16c9c147f39ffe8",
+        "size_in_bytes": 1882
+      },
+      {
+        "_path": "include/libavutil/replaygain.h",
+        "path_type": "hardlink",
+        "sha256": "4ec82edbdc4e5493fba3cae6a27566f0f15d1399ccf16e25073ffd50ba8187ea",
+        "sha256_in_prefix": "4ec82edbdc4e5493fba3cae6a27566f0f15d1399ccf16e25073ffd50ba8187ea",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "include/libavutil/ripemd.h",
+        "path_type": "hardlink",
+        "sha256": "5aaabbbb3a38b615ab892e10d7edd872cf755bf08ca270607add98a42752c337",
+        "sha256_in_prefix": "5aaabbbb3a38b615ab892e10d7edd872cf755bf08ca270607add98a42752c337",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "include/libavutil/samplefmt.h",
+        "path_type": "hardlink",
+        "sha256": "e92c47e4aedb439ccb630e46e80ef884c848ca2b7baeb64b1050802312751e0d",
+        "sha256_in_prefix": "e92c47e4aedb439ccb630e46e80ef884c848ca2b7baeb64b1050802312751e0d",
+        "size_in_bytes": 10318
+      },
+      {
+        "_path": "include/libavutil/sha.h",
+        "path_type": "hardlink",
+        "sha256": "7ae6876df76d49be52b7257a6bcc03406bb44946a302588774ce11aed25b3bff",
+        "sha256_in_prefix": "7ae6876df76d49be52b7257a6bcc03406bb44946a302588774ce11aed25b3bff",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "include/libavutil/sha512.h",
+        "path_type": "hardlink",
+        "sha256": "1f3c46f73d81df4bf5724c0892cf8ef9bbfe93a408c5719c14f044c59744e7e9",
+        "sha256_in_prefix": "1f3c46f73d81df4bf5724c0892cf8ef9bbfe93a408c5719c14f044c59744e7e9",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "include/libavutil/spherical.h",
+        "path_type": "hardlink",
+        "sha256": "e8e02f113e48665bbe3fd610617b4ac0dc945fffca78d50fa81bd22e725e5576",
+        "sha256_in_prefix": "e8e02f113e48665bbe3fd610617b4ac0dc945fffca78d50fa81bd22e725e5576",
+        "size_in_bytes": 8024
+      },
+      {
+        "_path": "include/libavutil/stereo3d.h",
+        "path_type": "hardlink",
+        "sha256": "1b841852957b05963deefaee454c5adef1a58e049bbca3cce4888dc3c09b7359",
+        "sha256_in_prefix": "1b841852957b05963deefaee454c5adef1a58e049bbca3cce4888dc3c09b7359",
+        "size_in_bytes": 5250
+      },
+      {
+        "_path": "include/libavutil/tea.h",
+        "path_type": "hardlink",
+        "sha256": "3c1e93c566630bb4eeedad3ef3c8719bd6050081ac1c764b1fde81aba4969076",
+        "sha256_in_prefix": "3c1e93c566630bb4eeedad3ef3c8719bd6050081ac1c764b1fde81aba4969076",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "include/libavutil/threadmessage.h",
+        "path_type": "hardlink",
+        "sha256": "e4d25438f0518c1cefb269c82eba23ed634ef6aac2c723d1c0ca1a0d2417dfcd",
+        "sha256_in_prefix": "e4d25438f0518c1cefb269c82eba23ed634ef6aac2c723d1c0ca1a0d2417dfcd",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "include/libavutil/time.h",
+        "path_type": "hardlink",
+        "sha256": "40e11fa242e0585996753affb054443e78be25919b7c3063042d0aaff1656760",
+        "sha256_in_prefix": "40e11fa242e0585996753affb054443e78be25919b7c3063042d0aaff1656760",
+        "size_in_bytes": 1800
+      },
+      {
+        "_path": "include/libavutil/timecode.h",
+        "path_type": "hardlink",
+        "sha256": "b3a67f8f052a7a29f4fd2fd9623e5d3e632d556bc515f5c2b99efdfc2e86ec9b",
+        "sha256_in_prefix": "b3a67f8f052a7a29f4fd2fd9623e5d3e632d556bc515f5c2b99efdfc2e86ec9b",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "include/libavutil/timestamp.h",
+        "path_type": "hardlink",
+        "sha256": "c4753df37c8b0e63e99042007d5836b954ce825913642c57cc7c58b4a52d0273",
+        "sha256_in_prefix": "c4753df37c8b0e63e99042007d5836b954ce825913642c57cc7c58b4a52d0273",
+        "size_in_bytes": 2617
+      },
+      {
+        "_path": "include/libavutil/tree.h",
+        "path_type": "hardlink",
+        "sha256": "fb371063da19c9052aba46b24ac62b1b9dfaed7911bf7408d3ae6916a6e9dbc4",
+        "sha256_in_prefix": "fb371063da19c9052aba46b24ac62b1b9dfaed7911bf7408d3ae6916a6e9dbc4",
+        "size_in_bytes": 5429
+      },
+      {
+        "_path": "include/libavutil/twofish.h",
+        "path_type": "hardlink",
+        "sha256": "f6823a45af3a076bcf3f3f3361f1fa6b7aa0ee85a75ca0e8480b9b27b4532189",
+        "sha256_in_prefix": "f6823a45af3a076bcf3f3f3361f1fa6b7aa0ee85a75ca0e8480b9b27b4532189",
+        "size_in_bytes": 2245
+      },
+      {
+        "_path": "include/libavutil/version.h",
+        "path_type": "hardlink",
+        "sha256": "ea4535da051ba24517578e7504849417e9061e640c22e80cea19d560c6d6a7b6",
+        "sha256_in_prefix": "ea4535da051ba24517578e7504849417e9061e640c22e80cea19d560c6d6a7b6",
+        "size_in_bytes": 4669
+      },
+      {
+        "_path": "include/libavutil/xtea.h",
+        "path_type": "hardlink",
+        "sha256": "2eb91f780cc4ad86095e4ebbce453475d40f4e9b8737d52bdf20a068dfafcdf0",
+        "sha256_in_prefix": "2eb91f780cc4ad86095e4ebbce453475d40f4e9b8737d52bdf20a068dfafcdf0",
+        "size_in_bytes": 2834
+      },
+      {
+        "_path": "include/libpostproc/postprocess.h",
+        "path_type": "hardlink",
+        "sha256": "ec163d6a1de0e9fb8083e01a1ad760514a9948cdbe9a9289b5525ba0aaaca9a4",
+        "sha256_in_prefix": "ec163d6a1de0e9fb8083e01a1ad760514a9948cdbe9a9289b5525ba0aaaca9a4",
+        "size_in_bytes": 2936
+      },
+      {
+        "_path": "include/libpostproc/version.h",
+        "path_type": "hardlink",
+        "sha256": "0693766f661c8db06e070f87bb7e7f28f2c2ad05ed86c013c49318fcbd93b2b2",
+        "sha256_in_prefix": "0693766f661c8db06e070f87bb7e7f28f2c2ad05ed86c013c49318fcbd93b2b2",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "include/libswresample/swresample.h",
+        "path_type": "hardlink",
+        "sha256": "50e101a21eb6854cdcda08a39afb7f97f5780445753fd8e7260a08e0ef96b138",
+        "sha256_in_prefix": "50e101a21eb6854cdcda08a39afb7f97f5780445753fd8e7260a08e0ef96b138",
+        "size_in_bytes": 21785
+      },
+      {
+        "_path": "include/libswresample/version.h",
+        "path_type": "hardlink",
+        "sha256": "ebd47db0734d104e573352b4d7f902e05154cb6ed421a2f9a85f4c3a36082f86",
+        "sha256_in_prefix": "ebd47db0734d104e573352b4d7f902e05154cb6ed421a2f9a85f4c3a36082f86",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "include/libswscale/swscale.h",
+        "path_type": "hardlink",
+        "sha256": "10edc3471a22d9395d1f496689436b516572ad373fa13c24511e4a8019aa2188",
+        "sha256_in_prefix": "10edc3471a22d9395d1f496689436b516572ad373fa13c24511e4a8019aa2188",
+        "size_in_bytes": 12015
+      },
+      {
+        "_path": "include/libswscale/version.h",
+        "path_type": "hardlink",
+        "sha256": "fe2bf2cc04cc01ba43371c1c59a2390383fb776584dde56c7ad17b9286e7a283",
+        "sha256_in_prefix": "fe2bf2cc04cc01ba43371c1c59a2390383fb776584dde56c7ad17b9286e7a283",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/libavcodec.58.18.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "16ca10e64a4b97564fdd99b829248077c315e968d52d92c9d559770ed514352d",
+        "sha256_in_prefix": "84632515b207870b9026f28e5811b016ae084c760a98226991954449c898ad85",
+        "size_in_bytes": 15077072
+      },
+      {
+        "_path": "lib/libavcodec.58.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "16ca10e64a4b97564fdd99b829248077c315e968d52d92c9d559770ed514352d",
+        "size_in_bytes": 15077072
+      },
+      {
+        "_path": "lib/libavcodec.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7ba7c86252a021ab90ea9607b340427c150a2aa80c81c035ebebcba56bfff5a2",
+        "sha256_in_prefix": "4dc03b8c03d1043a4b16c63f8a654ff4163d8c2a382baf5f95ab8638477ca640",
+        "size_in_bytes": 68997752
+      },
+      {
+        "_path": "lib/libavcodec.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "16ca10e64a4b97564fdd99b829248077c315e968d52d92c9d559770ed514352d",
+        "size_in_bytes": 15077072
+      },
+      {
+        "_path": "lib/libavdevice.58.3.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "14e436f7f40fbce00cafff87fba9078dce6022c82fd75292b4a5c3025d2d9f7c",
+        "sha256_in_prefix": "5dcfd4663f0802c53456f748b6cb88ad4d26880048588bfa718025a4cccb9b85",
+        "size_in_bytes": 69120
+      },
+      {
+        "_path": "lib/libavdevice.58.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "14e436f7f40fbce00cafff87fba9078dce6022c82fd75292b4a5c3025d2d9f7c",
+        "size_in_bytes": 69120
+      },
+      {
+        "_path": "lib/libavdevice.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "cc2256ae7196affc37d9fecb23d79718a0c2a00f4adad3939b3eda2223d71260",
+        "sha256_in_prefix": "4cc19e4fa89cf389878effa257e1ad7192cd209167713783e0f1d6581616fbb7",
+        "size_in_bytes": 368048
+      },
+      {
+        "_path": "lib/libavdevice.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "14e436f7f40fbce00cafff87fba9078dce6022c82fd75292b4a5c3025d2d9f7c",
+        "size_in_bytes": 69120
+      },
+      {
+        "_path": "lib/libavfilter.7.16.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5ac571d6362b197e703ae0e989a1d8b272a20bd6dc2432d339a65bcd0629f70b",
+        "sha256_in_prefix": "77beb749663bf64aedb609d5a1765e927a81e6ede351d6a02c6800133144a8f6",
+        "size_in_bytes": 2463484
+      },
+      {
+        "_path": "lib/libavfilter.7.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5ac571d6362b197e703ae0e989a1d8b272a20bd6dc2432d339a65bcd0629f70b",
+        "size_in_bytes": 2463484
+      },
+      {
+        "_path": "lib/libavfilter.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1447117ba765005cacf3e10d80e7ae733bab6875a049e6f0dac5bbccdf117f76",
+        "sha256_in_prefix": "e659882b4508ff2b4677467d1ce158762b0cb76700347e07a65b3749f6b03df6",
+        "size_in_bytes": 12879704
+      },
+      {
+        "_path": "lib/libavfilter.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5ac571d6362b197e703ae0e989a1d8b272a20bd6dc2432d339a65bcd0629f70b",
+        "size_in_bytes": 2463484
+      },
+      {
+        "_path": "lib/libavformat.58.12.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b44be54a5009257190239cae01bf9938d3784817481329bcc855270c4425ddb0",
+        "sha256_in_prefix": "bcb31096ea0a53906f5e8a5543bffbfcf00a7b9a72aa5b04e1fc8dc4f1f6b63f",
+        "size_in_bytes": 2018648
+      },
+      {
+        "_path": "lib/libavformat.58.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b44be54a5009257190239cae01bf9938d3784817481329bcc855270c4425ddb0",
+        "size_in_bytes": 2018648
+      },
+      {
+        "_path": "lib/libavformat.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8d7f8c8f8f1065219515e1525324a2e881071f7723c059ad11f06181dec38437",
+        "sha256_in_prefix": "f7cc0498d0b07084918b425b2385b258b9a0402f5f60732cd73cac846bf5ecb2",
+        "size_in_bytes": 27668984
+      },
+      {
+        "_path": "lib/libavformat.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b44be54a5009257190239cae01bf9938d3784817481329bcc855270c4425ddb0",
+        "size_in_bytes": 2018648
+      },
+      {
+        "_path": "lib/libavresample.4.0.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1e45f45b04a5b0f67cab1939cce1a55b8f0ad6003542d3d900a700c9b73946c7",
+        "sha256_in_prefix": "e3f02900ffc13908fa7f5076c7f6294715851f7d50032dde9086b7ef42ab7a2a",
+        "size_in_bytes": 138244
+      },
+      {
+        "_path": "lib/libavresample.4.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1e45f45b04a5b0f67cab1939cce1a55b8f0ad6003542d3d900a700c9b73946c7",
+        "size_in_bytes": 138244
+      },
+      {
+        "_path": "lib/libavresample.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a848f359d9c12d7c4cc5b5ae65606e5c22416495d1b725994b571af777d6d433",
+        "sha256_in_prefix": "3cd5643021cf5f70feaa716e59e82d2a37fb7ad1b94ab1ef6ee4fc7262f71d3d",
+        "size_in_bytes": 401008
+      },
+      {
+        "_path": "lib/libavresample.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1e45f45b04a5b0f67cab1939cce1a55b8f0ad6003542d3d900a700c9b73946c7",
+        "size_in_bytes": 138244
+      },
+      {
+        "_path": "lib/libavutil.56.14.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3753613479b6c2261f4fe4799f253e490a336278b8a5346eadcb0f63520a2955",
+        "sha256_in_prefix": "201271fae63725140a581689f518cd97027bae3def721b5c17e2998d679d2b57",
+        "size_in_bytes": 388872
+      },
+      {
+        "_path": "lib/libavutil.56.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3753613479b6c2261f4fe4799f253e490a336278b8a5346eadcb0f63520a2955",
+        "size_in_bytes": 388872
+      },
+      {
+        "_path": "lib/libavutil.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d19fce1b9b1575b86ac414093011b3107c92ff3f725689fbf4eb10e9ac12f369",
+        "sha256_in_prefix": "e85a4d5bbcc4f5b294e8b86a696efe3258d822e898dab3774c7a023d5c11e40c",
+        "size_in_bytes": 1414624
+      },
+      {
+        "_path": "lib/libavutil.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3753613479b6c2261f4fe4799f253e490a336278b8a5346eadcb0f63520a2955",
+        "size_in_bytes": 388872
+      },
+      {
+        "_path": "lib/libpostproc.55.1.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "973c082c768e4400bd6a9ef8c412adfc1e58b13a6f8d102e60e1865deb3cc351",
+        "sha256_in_prefix": "a8c5ddbef81797f041fe7b48b0c8a052bac28e7d8fb5743dc314ac0d452865de",
+        "size_in_bytes": 136852
+      },
+      {
+        "_path": "lib/libpostproc.55.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "973c082c768e4400bd6a9ef8c412adfc1e58b13a6f8d102e60e1865deb3cc351",
+        "size_in_bytes": 136852
+      },
+      {
+        "_path": "lib/libpostproc.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "81a874b091e2704e99949ccf6232e5e642b026a22f43f86577404c759031de4d",
+        "sha256_in_prefix": "3e09d5a2ce1d8852b776515f5c73b8e224deb2f0b6e9523df52adada963b9bac",
+        "size_in_bytes": 247592
+      },
+      {
+        "_path": "lib/libpostproc.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "973c082c768e4400bd6a9ef8c412adfc1e58b13a6f8d102e60e1865deb3cc351",
+        "size_in_bytes": 136852
+      },
+      {
+        "_path": "lib/libswresample.3.1.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ab3a47760c4759c789fc4ab263a1f97fa036fb6e48c364c8fec682e1f220fbeb",
+        "sha256_in_prefix": "22da28db1c70371747dec81875ce848ab95869f8b3e92d0d9fc1f1504d9cdb35",
+        "size_in_bytes": 123532
+      },
+      {
+        "_path": "lib/libswresample.3.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ab3a47760c4759c789fc4ab263a1f97fa036fb6e48c364c8fec682e1f220fbeb",
+        "size_in_bytes": 123532
+      },
+      {
+        "_path": "lib/libswresample.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e0ba9530b19dcbe8d07ca4cbc77359597380d13c2d32c81c94dc20eb2d70c889",
+        "sha256_in_prefix": "c760b393b4c4a71b6e5e3734939c69ddbf4fc48452a70bf4b7bd302142002e6c",
+        "size_in_bytes": 383336
+      },
+      {
+        "_path": "lib/libswresample.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ab3a47760c4759c789fc4ab263a1f97fa036fb6e48c364c8fec682e1f220fbeb",
+        "size_in_bytes": 123532
+      },
+      {
+        "_path": "lib/libswscale.5.1.100.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7b0d0f33a0431469b24216d0e122bba8aa6fbcc15f633af04ed8d3b8fe1f61f6",
+        "sha256_in_prefix": "8304179141e8f225ab9f076561a22e6a7e82c65ebeca3ca4506caaa08e19055f",
+        "size_in_bytes": 800984
+      },
+      {
+        "_path": "lib/libswscale.5.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7b0d0f33a0431469b24216d0e122bba8aa6fbcc15f633af04ed8d3b8fe1f61f6",
+        "size_in_bytes": 800984
+      },
+      {
+        "_path": "lib/libswscale.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d80cb9badb18c2b934c133bab903b8099e0c45efe0051b796381807ba2b1d1ae",
+        "sha256_in_prefix": "15d77b7f9935e62d1e138615822896336cfd7d0b0da713950de21c20bcaa9283",
+        "size_in_bytes": 2556664
+      },
+      {
+        "_path": "lib/libswscale.dylib",
+        "file_mode": "binary",
+        "path_type": "softlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/ffmpeg_1531087476855/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7b0d0f33a0431469b24216d0e122bba8aa6fbcc15f633af04ed8d3b8fe1f61f6",
+        "size_in_bytes": 800984
+      },
+      {
+        "_path": "lib/pkgconfig/libavcodec.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "3a23733376d62d8f27d8b62de55f7766e271afc2c7be743520fd1800e318331b",
+        "sha256_in_prefix": "06f077ddff1d6102e861ab4543dfe85000bc0986229d77dea572392a4b49792b",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/pkgconfig/libavdevice.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "74eb9a9c90c51afbe636b0f0b4bc322824427daf29c713e8d829f446c7727d80",
+        "sha256_in_prefix": "f30a428ae9ba59b9cfb55234a39023e92faa90815ddef8b522ff532901f4c487",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/pkgconfig/libavfilter.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "e8c0c4c593b80eab85f17fd7fad42b171e550bd517427506b2f9c58ffa418fe2",
+        "sha256_in_prefix": "e47ca9701365fae3dd303f0ba35d6124fb98931594c976e11b560e671b0d0db3",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/pkgconfig/libavformat.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ea37a24b416aface3553e11701e39185808ff8ebb3102ccdb164c0156ac83156",
+        "sha256_in_prefix": "8db778a6568e1ea50727021efd48d3d6300172de93c506623aa3b0d8b7104825",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/pkgconfig/libavresample.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c61255c9a22eb28da6f51c46a0ae5d9c429339ebccd8df868a96a9165b712b8e",
+        "sha256_in_prefix": "0082f68b13d29a0d4bcec3974cdbc01bc8e30254a576a30b6af423a1a3ea3915",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/pkgconfig/libavutil.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "fec35339ebbf5065d403786f7aab5f4bdcd59adb2fa0469a2a18a1fb6914a039",
+        "sha256_in_prefix": "4b76f0e7ae8260cc75302a2e0cc3802dc490f70c4d0951c9856a7f29e51824f9",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "lib/pkgconfig/libpostproc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "03f56f3978d3856afe40d06de9ec27361417f5466250869d217e81ad4f99f03f",
+        "sha256_in_prefix": "82c0a2bfa502942609e949a8b542903c31818010f09d3eede8526f62ec48cd42",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "lib/pkgconfig/libswresample.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "12be9940f183659ad5a8e078c0b8574bf19571f808cc9d5b130ecc85dd456907",
+        "sha256_in_prefix": "2f1cc0a3a12c627bf61f357af2169ce86dbca887e3a680bd3bb28c04d4897d51",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/pkgconfig/libswscale.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7bee29af61ac642c923fab75d930ee79e167e713165a49d9bd3d50c42d9e8f5e",
+        "sha256_in_prefix": "823f0fa371180ab2d17e7d32bef40de291f477273aefcb92601efccd6e167d74",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "share/ffmpeg/examples/Makefile",
+        "path_type": "hardlink",
+        "sha256": "4f35231be0faefbe9cdd1a0f8ca8052d70896329bec3906eb16ad000b6aff59d",
+        "sha256_in_prefix": "4f35231be0faefbe9cdd1a0f8ca8052d70896329bec3906eb16ad000b6aff59d",
+        "size_in_bytes": 1970
+      },
+      {
+        "_path": "share/ffmpeg/examples/README",
+        "path_type": "hardlink",
+        "sha256": "b6de79fdcd6b18dd656dd2823b2a41c06c4553c329c9b53ed1751c455fa98d28",
+        "sha256_in_prefix": "b6de79fdcd6b18dd656dd2823b2a41c06c4553c329c9b53ed1751c455fa98d28",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "share/ffmpeg/examples/avio_dir_cmd.c",
+        "path_type": "hardlink",
+        "sha256": "0a2e6ae60e1dfc4a6ea6144f6c100cfaf67a2d5eb7c663c80df123f04ab8856a",
+        "sha256_in_prefix": "0a2e6ae60e1dfc4a6ea6144f6c100cfaf67a2d5eb7c663c80df123f04ab8856a",
+        "size_in_bytes": 5551
+      },
+      {
+        "_path": "share/ffmpeg/examples/avio_reading.c",
+        "path_type": "hardlink",
+        "sha256": "ed85d662f7b9e86f743874df2f2dd9f1231e35aa8054e717baead837bf0b0f26",
+        "sha256_in_prefix": "ed85d662f7b9e86f743874df2f2dd9f1231e35aa8054e717baead837bf0b0f26",
+        "size_in_bytes": 4015
+      },
+      {
+        "_path": "share/ffmpeg/examples/decode_audio.c",
+        "path_type": "hardlink",
+        "sha256": "e6796487fde0a2467f65e346934726c9fa6620f4e8a83c712bd1654377621b9d",
+        "sha256_in_prefix": "e6796487fde0a2467f65e346934726c9fa6620f4e8a83c712bd1654377621b9d",
+        "size_in_bytes": 5349
+      },
+      {
+        "_path": "share/ffmpeg/examples/decode_video.c",
+        "path_type": "hardlink",
+        "sha256": "1f35c6b16c9d66e5337283454b0f5cf5f0648369aac3e2d6bf4d80bd8f4d1b60",
+        "sha256_in_prefix": "1f35c6b16c9d66e5337283454b0f5cf5f0648369aac3e2d6bf4d80bd8f4d1b60",
+        "size_in_bytes": 5290
+      },
+      {
+        "_path": "share/ffmpeg/examples/demuxing_decoding.c",
+        "path_type": "hardlink",
+        "sha256": "d3773df68181b88160c8cce37d936e34cdd0e3ceb0fd893d6dca3184e69084ff",
+        "sha256_in_prefix": "d3773df68181b88160c8cce37d936e34cdd0e3ceb0fd893d6dca3184e69084ff",
+        "size_in_bytes": 14568
+      },
+      {
+        "_path": "share/ffmpeg/examples/encode_audio.c",
+        "path_type": "hardlink",
+        "sha256": "257dacf00621d852b8909859742faf0a8a02425e6f33c8ab7696bd093199026a",
+        "sha256_in_prefix": "257dacf00621d852b8909859742faf0a8a02425e6f33c8ab7696bd093199026a",
+        "size_in_bytes": 6579
+      },
+      {
+        "_path": "share/ffmpeg/examples/encode_video.c",
+        "path_type": "hardlink",
+        "sha256": "4edaa7fa8bf1b0847ca4cb22e3a455bd966b01c808576d18069e0ff5f3ed451f",
+        "sha256_in_prefix": "4edaa7fa8bf1b0847ca4cb22e3a455bd966b01c808576d18069e0ff5f3ed451f",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "share/ffmpeg/examples/extract_mvs.c",
+        "path_type": "hardlink",
+        "sha256": "125b08238a061d2d7fda50e163c1e669469b50d10da614f93b33367ea35475e0",
+        "sha256_in_prefix": "125b08238a061d2d7fda50e163c1e669469b50d10da614f93b33367ea35475e0",
+        "size_in_bytes": 5641
+      },
+      {
+        "_path": "share/ffmpeg/examples/filter_audio.c",
+        "path_type": "hardlink",
+        "sha256": "0cd43f725892cc554900752285bcb8a9310b9ec4e98feab4f6fac57727912dcc",
+        "sha256_in_prefix": "0cd43f725892cc554900752285bcb8a9310b9ec4e98feab4f6fac57727912dcc",
+        "size_in_bytes": 11824
+      },
+      {
+        "_path": "share/ffmpeg/examples/filtering_audio.c",
+        "path_type": "hardlink",
+        "sha256": "7bb2801b385fdf3d593cdeef45cd0ebb5ae51882bc2dcb0af8fef91a2fac85e8",
+        "sha256_in_prefix": "7bb2801b385fdf3d593cdeef45cd0ebb5ae51882bc2dcb0af8fef91a2fac85e8",
+        "size_in_bytes": 10266
+      },
+      {
+        "_path": "share/ffmpeg/examples/filtering_video.c",
+        "path_type": "hardlink",
+        "sha256": "85db30b24cb883cf8c943699f3aaefc48c9d4c74b9ba898699be4a952a04e220",
+        "sha256_in_prefix": "85db30b24cb883cf8c943699f3aaefc48c9d4c74b9ba898699be4a952a04e220",
+        "size_in_bytes": 9675
+      },
+      {
+        "_path": "share/ffmpeg/examples/http_multiclient.c",
+        "path_type": "hardlink",
+        "sha256": "155f41bd27a681eb77cc87c1128074407226345e2e253d9b51c9739a1f439d00",
+        "sha256_in_prefix": "155f41bd27a681eb77cc87c1128074407226345e2e253d9b51c9739a1f439d00",
+        "size_in_bytes": 5254
+      },
+      {
+        "_path": "share/ffmpeg/examples/hw_decode.c",
+        "path_type": "hardlink",
+        "sha256": "deb2c8efb429cfb91bfc0404c37c687cf52cd158279e91549ab7c13c2a95aaee",
+        "sha256_in_prefix": "deb2c8efb429cfb91bfc0404c37c687cf52cd158279e91549ab7c13c2a95aaee",
+        "size_in_bytes": 7715
+      },
+      {
+        "_path": "share/ffmpeg/examples/metadata.c",
+        "path_type": "hardlink",
+        "sha256": "fd384f5af4b08b1bd3b525035eab118653ab24b11c16a94dc86b747186fd6a51",
+        "sha256_in_prefix": "fd384f5af4b08b1bd3b525035eab118653ab24b11c16a94dc86b747186fd6a51",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "share/ffmpeg/examples/muxing.c",
+        "path_type": "hardlink",
+        "sha256": "518b9ed0bfec55c89019b641db3c453639d1539dbb13ad408eef72f3018791e5",
+        "sha256_in_prefix": "518b9ed0bfec55c89019b641db3c453639d1539dbb13ad408eef72f3018791e5",
+        "size_in_bytes": 21513
+      },
+      {
+        "_path": "share/ffmpeg/examples/qsvdec.c",
+        "path_type": "hardlink",
+        "sha256": "d44aecc1f08067f37474c8b6099ba30f96140d65872eb93b897df61a81723d15",
+        "sha256_in_prefix": "d44aecc1f08067f37474c8b6099ba30f96140d65872eb93b897df61a81723d15",
+        "size_in_bytes": 8239
+      },
+      {
+        "_path": "share/ffmpeg/examples/remuxing.c",
+        "path_type": "hardlink",
+        "sha256": "064d9db6d6c7cc5dff117b491a32f1db325edfeca8332e2381629e7689b5c93f",
+        "sha256_in_prefix": "064d9db6d6c7cc5dff117b491a32f1db325edfeca8332e2381629e7689b5c93f",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "share/ffmpeg/examples/resampling_audio.c",
+        "path_type": "hardlink",
+        "sha256": "56ba76e7313436fc6cd10c5eebb7523cb33d16c4bc8a256159c54650c9176cb1",
+        "sha256_in_prefix": "56ba76e7313436fc6cd10c5eebb7523cb33d16c4bc8a256159c54650c9176cb1",
+        "size_in_bytes": 8005
+      },
+      {
+        "_path": "share/ffmpeg/examples/scaling_video.c",
+        "path_type": "hardlink",
+        "sha256": "ba562a7d9fc39dc93d7f224951d6e22339c8edf41deee10063c98da798098e9b",
+        "sha256_in_prefix": "ba562a7d9fc39dc93d7f224951d6e22339c8edf41deee10063c98da798098e9b",
+        "size_in_bytes": 5028
+      },
+      {
+        "_path": "share/ffmpeg/examples/transcode_aac.c",
+        "path_type": "hardlink",
+        "sha256": "ca11787ff7ed527e385a57e65beb985596682034013fe030d0138e1d3e79daa2",
+        "sha256_in_prefix": "ca11787ff7ed527e385a57e65beb985596682034013fe030d0138e1d3e79daa2",
+        "size_in_bytes": 34630
+      },
+      {
+        "_path": "share/ffmpeg/examples/transcoding.c",
+        "path_type": "hardlink",
+        "sha256": "a6e28b012a155ecc0c40ea0037efabcefcb0f7be9e9917e9eac1e3a3bf17c9cb",
+        "sha256_in_prefix": "a6e28b012a155ecc0c40ea0037efabcefcb0f7be9e9917e9eac1e3a3bf17c9cb",
+        "size_in_bytes": 22210
+      },
+      {
+        "_path": "share/ffmpeg/examples/vaapi_encode.c",
+        "path_type": "hardlink",
+        "sha256": "0ea184c2caa3019cb6b01b72fa03630375cebb567251c3460c911acad66d2803",
+        "sha256_in_prefix": "0ea184c2caa3019cb6b01b72fa03630375cebb567251c3460c911acad66d2803",
+        "size_in_bytes": 6713
+      },
+      {
+        "_path": "share/ffmpeg/examples/vaapi_transcode.c",
+        "path_type": "hardlink",
+        "sha256": "89ca96c310c06b7e5f240337d7720800b781b9e190b34d8c473494a2b9d15ec3",
+        "sha256_in_prefix": "89ca96c310c06b7e5f240337d7720800b781b9e190b34d8c473494a2b9d15ec3",
+        "size_in_bytes": 9690
+      },
+      {
+        "_path": "share/ffmpeg/ffprobe.xsd",
+        "path_type": "hardlink",
+        "sha256": "ce2b3415d683efa6edb7bb9691a2103e9d2ad90603dc463c19e5f5719e63a6b9",
+        "sha256_in_prefix": "ce2b3415d683efa6edb7bb9691a2103e9d2ad90603dc463c19e5f5719e63a6b9",
+        "size_in_bytes": 20608
+      },
+      {
+        "_path": "share/ffmpeg/libvpx-1080p.ffpreset",
+        "path_type": "hardlink",
+        "sha256": "cf0dca9d029e0aa29c242e5a7ecfb202a55ae41c1acdf5e2e59bf281a0136251",
+        "sha256_in_prefix": "cf0dca9d029e0aa29c242e5a7ecfb202a55ae41c1acdf5e2e59bf281a0136251",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "share/ffmpeg/libvpx-1080p50_60.ffpreset",
+        "path_type": "hardlink",
+        "sha256": "4d32bed9032caf8bf4ef8e4bcac427f482c6191396ef6b11f075a264da3a8def",
+        "sha256_in_prefix": "4d32bed9032caf8bf4ef8e4bcac427f482c6191396ef6b11f075a264da3a8def",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "share/ffmpeg/libvpx-360p.ffpreset",
+        "path_type": "hardlink",
+        "sha256": "c2ccd70a941c9b7003e364d7cc0296e8f3dea78cc3a87ccdcaae7c39a1a05b79",
+        "sha256_in_prefix": "c2ccd70a941c9b7003e364d7cc0296e8f3dea78cc3a87ccdcaae7c39a1a05b79",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "share/ffmpeg/libvpx-720p.ffpreset",
+        "path_type": "hardlink",
+        "sha256": "5bcac409c81ec0e11091801d5d1322b5ec6a9bb8617d7dda022acfea0d498d52",
+        "sha256_in_prefix": "5bcac409c81ec0e11091801d5d1322b5ec6a9bb8617d7dda022acfea0d498d52",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "share/ffmpeg/libvpx-720p50_60.ffpreset",
+        "path_type": "hardlink",
+        "sha256": "b08a5ae448cb3cccd23faa6f42c8dbf61ead1a8381fce65636aa01a4a142cb8e",
+        "sha256_in_prefix": "b08a5ae448cb3cccd23faa6f42c8dbf61ead1a8381fce65636aa01a4a142cb8e",
+        "size_in_bytes": 227
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "976e80314f5667932d035905faa258ab802c2809c4440cd5bef51e8b526bad39",
+  "size": 22829904,
+  "subdir": "osx-64",
+  "timestamp": 1531087891325,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ffmpeg-4.0-h01ea3c9_0.conda",
+  "version": "4.0"
+}
